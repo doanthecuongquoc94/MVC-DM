@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="nhanModelStoreContainer" CdmEntityContainer="nhanEntities">
+    <EntitySetMapping Name="nhandes">
+      <EntityTypeMapping TypeName="nhanModel.nhande">
+        <MappingFragment StoreEntitySet="nhande">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nhande1" ColumnName="nhande" />
+          <ScalarProperty Name="cha" ColumnName="cha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
